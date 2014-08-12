@@ -5469,6 +5469,10 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
+
+
+
+
 /* Custom - move to another file */
 
 body {
@@ -5500,6 +5504,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 .top-bar {
   height: 57px;
+  background: none;
 }
 
 .top-bar a {
@@ -5513,18 +5518,19 @@ button:hover, button:focus, .button:hover, .button:focus {
   font-size: 1.0125rem;
 }
 
-
-
-.top-bar-section li:not(.has-form) a:not(.button) {
-  background-color: none;
+.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li:hover:not(.has-form) > a {
   background: none;
+  background-color: transparent;
 
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background-color: #8e44ad;
-  background: #8e44ad;
 }
+
+ .top-bar-section ul li {
+    background: transparent; 
+  }
 
 .contain-to-grid {
     /* can be treated like a fallback */
@@ -5545,11 +5551,10 @@ button:hover, button:focus, .button:hover, .button:focus {
 h1, h2, h3, h4, h5 {
   font-family: 'Fjalla One', sans-serif;
   color: #3498db;
-}
-
-h2, h3, h4 {
   text-transform: uppercase;
 }
+
+
 
 h2 {
   padding-bottom: 10px;
@@ -5568,7 +5573,7 @@ h2 {
 }
 
 .teach-front {
-  margin: 70px 0;
+  margin: 40px 0;
 }
 
 .teach-front p {
@@ -5590,6 +5595,7 @@ h2 {
   color: #fff;
   text-shadow: 2px 2px 4px #000;
   font-size: 4.5rem;
+  text-transform: lowercase;
 }
 
 .first {
@@ -5612,9 +5618,31 @@ footer {
   border-top: 2px solid #f1c40f;
   background-color: #eee;
   padding: 20px 0 0 0;
-  margin-top: 40px;
+ 
 }
 
 footer a {
   color: #34495e;
+}
+
+/* Sticky footer */
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.container {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.container:after {
+  content: "";
+  display: block;
+}
+footer, .container:after {
+  /* .push must be the same height as footer */
+  height: 142px; 
 }
