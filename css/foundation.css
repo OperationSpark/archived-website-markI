@@ -5480,11 +5480,11 @@ body {
 }
 
 .button {
-  background-color: #e74c3c;
+  background-color: #2ecc71;
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #c0392b;
+  background-color: #2ecc71;
 
 }
 
@@ -5636,7 +5636,7 @@ html, body {
 .container {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -142px; 
+  margin-bottom: -75px; 
 }
 .container:after {
   content: "";
@@ -5644,5 +5644,13 @@ html, body {
 }
 footer, .container:after {
   /* .push must be the same height as footer */
-  height: 142px; 
+  height: 75px; 
+}
+
+a.you {
+  width: 200px;
+  height: 200px;
+  background: #f1c40f;
+  font-size: 100px;
+  color: #fff;
 }
