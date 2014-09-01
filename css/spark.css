@@ -1,7 +1,30 @@
 
-.floatleft
+.img-right-bottom
 {
-	float: left;
-	/*margin: 0 30px 15px 0;*/
-	/*padding: 10px;*/
+	padding-top: 05px;
+	padding-bottom: 30px;
+}
+
+.placed-right
+{
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+.placed-left
+{
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+
+.grey-element
+{
+	background: #ccc;
+}
+
+
+.p-strong {
+   	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+   	font-weight: bold; 
+   	color: #3498db;
 }

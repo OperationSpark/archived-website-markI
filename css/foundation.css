@@ -1517,7 +1517,7 @@ meta.foundation-mq-topbar {
       padding: 8px 15px 2px;
       margin-bottom: 0;
       text-transform: uppercase;
-      color: #777777;
+      color: #fff;
       font-weight: bold;
       font-size: 0.625rem; }
 
@@ -1629,16 +1629,21 @@ meta.foundation-mq-topbar {
         white-space: nowrap;
         padding: 12px 15px;
         background: #333333; }
+
+    /* dropdown menu background */    
       .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
         color: white;
-        background: #333333; }
+        background: #8e44ad; }
       .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
         color: white;
-        background-color: #555555;
-        background: #272727; }
+        background-color: #8e44ad;
+        background: #7444ad; }
+      
+    /* dropdown menu separator label */
       .top-bar-section .dropdown li label {
         white-space: nowrap;
-        background: #333333; }
+        background: #612e76; }
+      
       .top-bar-section .dropdown li .dropdown {
         left: 100%;
         top: 0; }

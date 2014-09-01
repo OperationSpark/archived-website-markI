@@ -1,0 +1,33 @@
+{
+  "resources" : [
+		{"type": "list", "url": "https://www.edsurge.com/guide/teaching-kids-to-code", "audience": ["teachers", "students"]},
+
+		{"type": "tutorial", "value": "It is decidedly so"},
+		{"type": "positive", "value": "Without a doubt"},
+		{"type": "positive", "value": "Yes definitely"},
+		{"type": "positive", "value": "You may rely on it"},
+		{"type": "positive", "value": "As I see it, yes"},
+		{"type": "positive", "value": "Most likely"},
+		{"type": "positive", "value": "Outlook good"},
+		{"type": "positive", "value": "Mos def"},
+		{"type": "positive", "value": "Signs point to yes"},
+
+		{"type": "neutral", "value": "Reply hazy try again"},
+		{"type": "neutral", "value": "Ask again later"},
+		{"type": "neutral", "value": "Better not tell you now"},
+		{"type": "neutral", "value": "Cannot predict now"},
+		{"type": "neutral", "value": "Concentrate and ask again"},
+
+		{"type": "nagative", "value": "Don't count on it"},
+		{"type": "nagative", "value": "My reply is no"},
+		{"type": "nagative", "value": "My sources say no"},
+		{"type": "nagative", "value": "Outlook not so good"},
+		{"type": "nagative", "value": "Very doubtful"}
+	]
+}
+
+https://itunes.apple.com/itunes-u/programming-methodology/id384232896?mt=10#ls=1
+    https://itunes.apple.com/us/course/programming-abstractions/id495054099
+    https://www.class-central.com/mooc/328/coursera-compilers
+    https://www.class-central.com/mooc/1580/stanford-openedx-db-introduction-to-databases
+    https://www.class-central.com/mooc/320/udacity-introduction-to-computer-science
