@@ -11,6 +11,15 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 }
 
+/* Email signup block */
+
+.email-signup {
+  background: #fcfcfa;
+  padding: 10px 10px 60px 10px;
+  border: solid 1px #e2e0d8;
+  border-radius: 5px;
+}
+
 /* Menu */
 
 .top-bar-section i {
