@@ -1,0 +1,79 @@
+.navbar-default {
+	background: none;
+	border: none;
+	height: 100px;
+}
+
+.navbar-right {
+	margin-top: 30px;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+
+html {
+	
+}
+
+body {
+	font-family: 'Average Sans', sans-serif;
+	background: #f6f6ef;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 990px;
+    }
+}
+
+p {
+	font-size: 17px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.mentors img {
+	border-radius: 10px;
+}
+
+.dat-nav {
+	position: fixed;
+	background-color: #fff;
+	border-radius: 5px;
+	width: 240px;
+	padding: 10px 0 10px 20px;
+}
+
+.dat-nav a {
+	color: #454545;
+}
+
+.join-block {
+	margin-top: 40px;
+}
+
+.join-block button {
+	width: 225px;
+	padding: 20px;
+	margin-bottom: 20px;
+	font-size: 21px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	background-color: #9b59b6;
+	border: none;
+}
+
+.featurette {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.nav-pills>li>a {
+	font-size: 16px;
+	padding: 5px 10px;
+	max-width: 200px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	background: #9b59b6;
+}
