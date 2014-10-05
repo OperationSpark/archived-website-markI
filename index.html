@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Justified Nav Template for Bootstrap</title>
+    <title>Operation Spark</title>
 
     <script src="/bower_components/angular/angular.js"></script>
     <!-- Bootstrap core CSS -->
@@ -71,10 +71,28 @@
             <iframe width="560" height="315" src="//www.youtube.com/embed/rxrP4Rs62P4?rel=0" frameborder="0" allowfullscreen></iframe>          </div>
           <div class="col-lg-4 text-center join-block">
             <h2>JOIN US</h2>
-            <button type="button" class="btn btn-success">Mentor</button><br>
-            <button type="button" class="btn btn-success">Contribute</button><br>
-            <button type="button" class="btn btn-success">Learn</button>
+            <button type="button" class="btn btn-success"><a href="contribute.html">Contribute</a></button><br>
+            <button type="button" class="btn btn-success"><a href="learn.html">Learn</a></button>
           </div>
+=======
+    
+    <div class="contain-to-grid">
+      <div id="header"></div>
+    </div>
+
+    <div class="hero fullWidth">
+        <h1 class="text-center">{ We teach kids how to code }</h1>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns teach-front">
+      
+        <h1 class="text-center blue">What we teach</h1>
+        
+        <div class="row">
+          <div class="large-5 large-offset-1 columns"><p><span class="number">1</span> Coding skills up to a level proficient enough to get a junior developer position at a startup</p></div>
+          <div class="large-5 columns"><p><span class="number">3</span> Life skills: public speaking, communication, managing stress, literacy, and more</p></div>
+>>>>>>> parent of ce4c942... Added email signup to front page
         </div>
     
       <div class="row text-center mentors featurette">
@@ -94,11 +112,12 @@
       </div>
     </div>  
 
+<<<<<<< HEAD
       
 
       <!-- Site footer -->
       <div class="footer">
-        <p>&copy; Company 2014</p>
+        <p>Operation Spark is a not-for-profit</p>
       </div>
 
     </div> <!-- /container -->
@@ -106,5 +125,58 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+=======
+      <hr>
+
+    <div class="flex-video widescreen">
+      <iframe src="https://www.youtube.com/embed/rxrP4Rs62P4" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="row mentors">
+      <div class="large-12 columns text-center teach-front">
+        <h1 class="blue">Our students are supported by passionate mentors</h1><br><br>
+        <ul class="small-block-grid-4 text-center">
+          <li><img src="img/george-mauer.jpg"><h5>George Mauer</h5><h6>Lead developer at Surge</h6></li>
+          <li><img src="img/alex-fallon.png"><h5>Alexandra Fallon</h5><h6>COO + Cofounder at mSchools</h6></li>
+          <li><img src="img/chris-boudy.png"><h5>Chris Boudy</h5><h6>IT Manager at City of N.O. + Cofounder at Teens for Tech</h6></li>
+          <li><img src="img/teherani.jpg"><h5>Zubin Tehrani</h5><h6>Business development at IDscan</h6></li>
+          <li><img src="img/torrie-adams.jpg"><h5>Torrie Adams</h5><h6>Head of Product Development at Kickboard</h6></li>
+          <li><img src="img/larimer.jpg"><h5>Andrew Larimer</h5><h6>Founder at Fat Happy Media</h6></li>
+          <li><img src="img/job-evers.jpg"><h5>Job Evers</h5><h6>Data Scientist at Udacity</h6></li>
+          <li><a class="th" href="contribute.html"><img class="spin" src="img/we_want_you.jpg" alt=""><h5>You</h5><h6>Awesome Mentor</h6></a></li>
+        </ul>
+       
+      </div>
+    </div>
+
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-54099142-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script> 
+      $(document).ready(function() {
+           $(function(){
+               $("#header").load("navigation.html");
+               $("#footer").load("footer.html"); 
+           });
+      });
+    </script>
   </body>
 </html>

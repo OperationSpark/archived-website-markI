@@ -1,0 +1,233 @@
+body {
+  font-family: 'Average Sans', sans-serif;
+}
+
+.button {
+  background-color: #2ecc71;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+  background-color: #2ecc71;
+
+}
+
+/* Menu */
+
+.top-bar-section i {
+  font-size: 25px;
+}
+
+.contain-to-grid {
+  padding: 15px 0;
+}
+
+.top-bar {
+  height: 57px;
+  background: none;
+}
+
+.top-bar a {
+  text-transform: uppercase;
+}
+
+.top-bar-section ul li > a {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Average Sans', sans-serif;
+  font-size: 1.0125rem;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li:hover:not(.has-form) > a {
+  background: none;
+  background-color: transparent;
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: #8e44ad;
+}
+
+ .top-bar-section ul li {
+    background: transparent; 
+  }
+
+.contain-to-grid {
+    /* can be treated like a fallback */
+  background-color: #9b59b6;
+
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(#9b59b6, #8e44ad);
+
+  /* these will reset other properties, like background-position, but it does know what you mean */
+  background: #9b59b6;
+  background: linear-gradient(#9b59b6, #8e44ad);
+}
+
+.top-bar-section ul.right {
+  margin-top: 5px;
+}
+
+.number {
+  font-size: 40px;
+  float: left;
+  margin-right: 20px;
+}
+
+.top-bar .name h1 a {
+  color: #00A8C6;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+/* The H's */
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #3498db;
+  text-transform: uppercase;
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+.about h3 {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+/* Home page */
+
+.blue {
+  color: #3498db;
+}
+
+.teach-front {
+  margin: 40px 0;
+}
+
+.teach-front p {
+  font-size: 1.1rem;
+}
+
+.hero {
+  background: url(../img/home.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  padding-top: 110px;
+}
+
+.hero h1 {
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+  font-size: 4.5rem;
+  text-transform: lowercase;
+}
+
+.first {
+  margin-top: 60px;
+}
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+/* Mentor section on front page */
+
+.mentors img {
+	border-radius: 10px;
+}
+
+.mentors h5 {
+	padding-top: 5px;
+}
+
+.mentors h6 {
+	font-size: .9rem;
+}
+
+
+
+h1.logo img  {
+  width: 260px;
+  margin-left: -40px;
+}
+
+footer {
+  border-top: 2px solid #f1c40f;
+  background-color: #eee;
+  padding: 20px 0 0 0;
+ 
+}
+
+footer a {
+  color: #34495e;
+}
+
+/* Sticky footer */
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.container {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -75px; 
+}
+.container:after {
+  content: "";
+  display: block;
+}
+footer, .container:after {
+  /* .push must be the same height as footer */
+  height: 75px; 
+}
+
+a.you {
+  width: 200px;
+  height: 200px;
+  background: #f1c40f;
+  font-size: 100px;
+  color: #fff;
+}
+
+/* JOHN'S SHIT */
+
+.img-right-bottom
+{
+	padding-top: 05px;
+	padding-bottom: 30px;
+}
+
+.placed-right
+{
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+.placed-left
+{
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+
+.grey-element
+{
+	background: #ccc;
+}
+
+
+.p-strong {
+   	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+   	font-weight: bold; 
+   	color: #3498db;
+}
