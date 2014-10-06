@@ -1,0 +1,20 @@
+{
+  "name": "op-spark-website",
+  "version": "0.0.2",
+  "description": "Our awesome website",
+  "dependencies": {
+    "local-web-server": "^0.5.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "ws"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OperationSpark/operationspark.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OperationSpark/operationspark.github.io/issues"
+  },
+  "homepage": "https://github.com/OperationSpark/operationspark.github.io"
+}
