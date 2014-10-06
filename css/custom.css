@@ -9,6 +9,8 @@ body {
     }
 }
 
+
+
 .navbar-default {
 	background: none;
 	border: none;
@@ -20,6 +22,13 @@ body {
 	margin-top: 30px;
 	font-size: 1.3em;
 	text-transform: uppercase;
+}
+
+.navbar-collapse.collapse.in {
+	text-align: right;
+	background: #fff;
+	z-index: 5000;
+	position: relative;
 }
 
 p {
@@ -39,8 +48,20 @@ h1.front {
 	font-size: 55px;
 }
 
+h4 {
+	margin-top: 25px;
+}
+
 a {
 	color: #9b59b6;
+}
+
+.lead {
+	font-size: 26px;
+	max-width: 800px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
 }
 
 .btn a {
@@ -86,8 +107,17 @@ button.purple:hover {
 	background: #7E389B;
 }
 
+button a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
 .featurette {
-	padding-bottom: 75px;
+	padding-bottom: 60px;
+}
+
+.featurette h1 {
+	margin-bottom: 30px;
 }
 
 .number {
@@ -127,12 +157,20 @@ button.culture a {
 	font-size: 16px;
 }
 
+button a {
+	color: #fff;
+}
+
 .btn {
 	border: none;
 }
 
 .well {
 	background: #fff;
+}
+
+.pull-left img {
+	margin-right: 20px;
 }
 
 .footer {
@@ -149,7 +187,7 @@ button.culture a {
 .footer .navbar-nav>li>a {
 	padding-top: 0px;
 	padding-bottom: 0px;
-	font-size: 18px;
+	font-size: 16px;
 	text-transform: uppercase;
 }
 
