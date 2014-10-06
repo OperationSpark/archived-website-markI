@@ -39,6 +39,10 @@ h1.front {
 	font-size: 55px;
 }
 
+a {
+	color: #9b59b6;
+}
+
 .btn a {
 	color: #fff;
 }
@@ -48,7 +52,7 @@ h1.front {
 }
 
 .dat-nav {
-	position: fixed;
+	
 	background-color: #fff;
 	border-radius: 5px;
 	width: 240px;
@@ -61,6 +65,7 @@ h1.front {
 
 .nav>li>a {
 	font-size: 22px;
+	color: #9b59b6;
 }
 
 .join-block {
@@ -111,9 +116,15 @@ button.purple:hover {
 	background: #9b59b6;
 }
 
-.culture a {
-	color: green;
-	font-size: 22px;
+button.culture {
+	background: #2a80b9;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+button.culture a {
+	color: #fff;
+	font-size: 16px;
 }
 
 .btn {
@@ -140,4 +151,8 @@ button.purple:hover {
 	padding-bottom: 0px;
 	font-size: 18px;
 	text-transform: uppercase;
+}
+
+.affix {
+	top: 20px;
 }

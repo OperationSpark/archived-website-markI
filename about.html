@@ -187,9 +187,8 @@
                <p>For selecting Operation Spark as the winner of 4.0 Schools' Summer Launch, our gratitude to the Pitch Night judges, Deborah Chang of Nexus Works, Chauncey Nartey of ROADS Charter High Schools, Don Burton of Kaplan EdTech Accelerator, Kate Meersschaert of EdLab and Margery Mayer, Scholastic Education.  We'd also like to thank the audience, who also selected us a winner!</p>
 
             <p>4.0 Schools' Launch is an Accelerator program supporting entrepreneurs in bringing educational products, services, or school models—to life in under 60 days. If you think you have a great idea, you should <a href="http://4pt0.org/experiences/launch/" target="_blank">apply to launch!</a></p>
-            </div>
 
-            <div id="press">
+       
                 <h3>Press &amp; Other Mentions</h3>
                 <ul>
                   <li><a href="http://www.nola.com/business/index.ssf/2014/08/education_entrepreneurship_con.html" target="_blank">Operation Spark Wins Big for New Orleans Youth : Nola.com</a></li>
@@ -204,18 +203,17 @@
   
 
           <div class="col-md-3">
-              <div class="dat-nav">
+              <div class="dat-nav" data-spy="affix" data-offset-top="15" id="nav">
                 <h4>Contents</h4>
                 <ul class="nav nav-pills nav-stacked">
                   <li><a href="#mission">Mission</a></li>
                   <li><a href="#history">History</a></li>
                   <li><a href="#programs">Programs</a></li>
                   <li><a href="#team">Team</a></li>
-                  <li><a href="#awards">Awards</a></li>
-                  <li><a href="#press">Press</a></li>
+                  <li><a href="#awards">Awards &amp; Press</a></li>
                 </ul>
                 
-                <div class="culture"><a href="culture.html">Our Culture</a></div>
+                <button class="btn culture"><a href="culture.html"><i class="fa fa-trophy"></i> Our Culture</a></button>
               </div>
           </div>
         </div>
@@ -241,6 +239,28 @@
       ga('create', 'UA-54099142-1', 'auto');
       ga('send', 'pageview');
 
+    </script>
+
+    <script>
+      $("#nav ul li a[href^='#']").on('click', function(e) {
+
+         // prevent default anchor click behavior
+         e.preventDefault();
+
+         // store hash
+         var hash = this.hash;
+
+         // animate
+         $('html, body').animate({
+             scrollTop: $(this.hash).offset().top
+           }, 400, function(){
+
+             // when done, add hash to url
+             // (default click behaviour)
+             window.location.hash = hash;
+           });
+
+      });
     </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

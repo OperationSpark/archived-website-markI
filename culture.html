@@ -44,7 +44,7 @@
         <div class="row">
 
           <div class="col-md-9">
-            <h3>Our Culture of Code</h3>
+            <h3>Culture of Code</h3>
             <p>At Operation Spark we have fun with the serious stuff, and hold ourselves, our students, staff and mentors, to high standards when it comes to our behaviour while learning and working together. We ask each of our participants to help us live up to these standards by actively working with a set of standards that help guide us into awesomeness!</p>
 
             <div class="well">
@@ -197,7 +197,7 @@
   
 
           <div class="col-md-3">
-              <div class="dat-nav">
+              <div class="dat-nav" data-spy="affix" data-offset-top="50" id="nav">
                 <h4>Our Culture</h4>
                 <ol class="nav nav-pills nav-stacked">
                   <li><a href="#change">Be Willing to Change</a></li>
@@ -236,6 +236,28 @@
       ga('create', 'UA-54099142-1', 'auto');
       ga('send', 'pageview');
 
+    </script>
+
+    <script>
+      $("#nav ol li a[href^='#']").on('click', function(e) {
+
+         // prevent default anchor click behavior
+         e.preventDefault();
+
+         // store hash
+         var hash = this.hash;
+
+         // animate
+         $('html, body').animate({
+             scrollTop: $(this.hash).offset().top
+           }, 400, function(){
+
+             // when done, add hash to url
+             // (default click behaviour)
+             window.location.hash = hash;
+           });
+
+      });
     </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
