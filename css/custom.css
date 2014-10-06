@@ -30,6 +30,15 @@ h1, h2, h3, h4, h5 {
 	font-family: 'Fjalla One', sans-serif;
 }
 
+h1, h2, h3 {
+	color: #2a80b9;
+	text-transform: uppercase;
+}
+
+h1.front {
+	font-size: 55px;
+}
+
 .btn a {
 	color: #fff;
 }
@@ -89,7 +98,7 @@ button.purple:hover {
 }
 
 .mascot img {
-	width: 120px;
+	width: 160px;
 }
 
 .nav-pills>li>a {
@@ -113,4 +122,22 @@ button.purple:hover {
 
 .well {
 	background: #fff;
+}
+
+.footer {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.footer img {
+	width: 40px;
+	float: left;
+	margin-right: 10px;
+}
+
+.footer .navbar-nav>li>a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 18px;
+	text-transform: uppercase;
 }
