@@ -194,3 +194,18 @@ button a {
 .affix {
 	top: 20px;
 }
+
+.tech-week {
+	background: #fff;
+	padding: 15px;
+}
+
+.tech-week h4 {
+	margin-top:0px;
+}
+
+.btn-event {
+	margin-top: -10px;
+	padding: 10px 15px;
+	text-transform: uppercase;
+}
