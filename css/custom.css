@@ -31,6 +31,10 @@ body {
 	position: relative;
 }
 
+.navbar-default .navbar-nav > li > a {
+	color: #9B59B6;
+}
+
 p {
 	font-size: 17px;
 }
@@ -56,6 +60,10 @@ a {
 	color: #9b59b6;
 }
 
+hr {
+	border: 1px solid #DEDEDE
+}
+
 .lead {
 	font-size: 26px;
 	max-width: 800px;
@@ -66,6 +74,10 @@ a {
 
 .btn a {
 	color: #fff;
+}
+
+.mentors {
+	padding-top: 35px;
 }
 
 .mentors img {
@@ -118,6 +130,12 @@ button a:hover {
 
 .featurette h1 {
 	margin-bottom: 30px;
+}
+
+.middle {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding-top: 45px;
 }
 
 .number {
