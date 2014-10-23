@@ -3,10 +3,8 @@ body {
 	background: #f6f6ef;
 }
 
-@media (min-width: 1200px) {
-    .container{
-        max-width: 990px;
-    }
+.container{
+    max-width: 990px;
 }
 
 p {
@@ -38,6 +36,14 @@ hr {
 ul li {
 	font-size: 16px;
 	padding-bottom: 5px;
+}
+
+/* Kill sidebar nav on mobile */
+
+@media (max-width: 600px) {
+  .dat-nav {
+    display: none;
+  }
 }
 
 /* Navigation */
