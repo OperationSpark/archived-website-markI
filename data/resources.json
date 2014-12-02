@@ -1,33 +1,64 @@
 {
   "resources" : [
-		{"type": "list", "url": "https://www.edsurge.com/guide/teaching-kids-to-code", "audience": ["teachers", "students"]},
-
-		{"type": "tutorial", "value": "It is decidedly so"},
-		{"type": "positive", "value": "Without a doubt"},
-		{"type": "positive", "value": "Yes definitely"},
-		{"type": "positive", "value": "You may rely on it"},
-		{"type": "positive", "value": "As I see it, yes"},
-		{"type": "positive", "value": "Most likely"},
-		{"type": "positive", "value": "Outlook good"},
-		{"type": "positive", "value": "Mos def"},
-		{"type": "positive", "value": "Signs point to yes"},
-
-		{"type": "neutral", "value": "Reply hazy try again"},
-		{"type": "neutral", "value": "Ask again later"},
-		{"type": "neutral", "value": "Better not tell you now"},
-		{"type": "neutral", "value": "Cannot predict now"},
-		{"type": "neutral", "value": "Concentrate and ask again"},
-
-		{"type": "nagative", "value": "Don't count on it"},
-		{"type": "nagative", "value": "My reply is no"},
-		{"type": "nagative", "value": "My sources say no"},
-		{"type": "nagative", "value": "Outlook not so good"},
-		{"type": "nagative", "value": "Very doubtful"}
-	]
-}
-
-https://itunes.apple.com/itunes-u/programming-methodology/id384232896?mt=10#ls=1
-    https://itunes.apple.com/us/course/programming-abstractions/id495054099
-    https://www.class-central.com/mooc/328/coursera-compilers
-    https://www.class-central.com/mooc/1580/stanford-openedx-db-introduction-to-databases
-    https://www.class-central.com/mooc/320/udacity-introduction-to-computer-science
+  	{
+  		"title": "Stanford CS 101",	
+  		"type": "mooc", 
+  		"url": "https://www.coursera.org/course/cs101",
+  		"level": "beginner", 
+  		"audience": ["teachers", "students"],
+  		"recommendedBy": [],
+  		"datePosted": "",
+  		"language": "javascript",
+  		"keywords": ["getting started", "javascript", "easy"],
+  		"desc": "CS101 teaches the essential ideas of Computer Science for a zero-prior-experience audience. The course uses small coding experiments in the browser to play with the nature of computers, understanding their strengths and limitations. Sign up for the Self Study to start the course right away!"
+  	},
+  	{
+  		"title": "JavaScript Koans",
+  		"type": "tutorial", 
+  		"url": "http://blog.bittersweetryan.com/2011/08/learn-some-javascript-completely-on.html", 
+  		"level": "beginner",
+  		"audience": ["teachers", "students"],
+  		"recommendedBy": [],
+  		"datePosted": "",
+  		"language": "javascript",
+  		"keywords": ["unit test", "javascript"],
+  		"desc": "A blog article describing how-to with the JavaScript Koans project. If you haven't heard of Koans before the basic concept is to learn a programming language through the act completing unit tests in that language."
+  	},
+  	{
+  		"title": "EdSurge List of Resources",
+  		"type": "list", 
+  		"url": "https://www.edsurge.com/guide/teaching-kids-to-code", 
+  		"level": "all",
+  		"audience": ["teachers", "students"],
+  		"recommendedBy": [],
+  		"datePosted": "",
+  		"language": "all",
+  		"keywords": ["resources", "list"],
+  		"desc": "A extensive list of resources that includes many different perspectives on coding, from a university professor's vantage point (MIT's Mitch Resnick describes why learning to code is like learning to learn) to an entrepreneur's reflections from his cross-country roadtrip to bring coding--and his stuffed dog--to classrooms across the U.S."
+  	},
+  	{
+  		"title": "Google's Python Class",
+  		"type": "class", 
+  		"url": "https://developers.google.com/edu/python/", 
+  		"level": "intermediate",
+  		"audience": ["teachers", "students"],
+  		"recommendedBy": [],
+  		"datePosted": "",
+  		"language": "python",
+  		"keywords": ["pthon", "regular expression"],
+  		"desc": "This is a free class for people with a little bit of programming experience who want to learn Python. The class includes written materials, lecture videos, and lots of code exercises to practice Python coding."
+  	},
+  	{
+  		"title": "Udacity Introduction to Computer Science",
+  		"type": "mooc", 
+  		"url": "https://www.class-central.com/mooc/320/udacity-introduction-to-computer-science", 
+  		"level": "beginner",
+  		"audience": ["teachers", "students"],
+  		"recommendedBy": [],
+  		"datePosted": "",
+  		"language": "python",
+  		"keywords": ["getting started", "introduction", "computer science", "python"],
+  		"desc": "In this introductory course, you’ll learn and practice key computer science concepts by building your own versions of popular web applications. You’ll learn Python, a powerful, easy-to-learn, and widely used programming language, and you’ll explore fundamental computer science concepts, as you build your own search engine and social network."
+  	}
+]}
+    
