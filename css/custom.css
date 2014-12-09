@@ -8,7 +8,9 @@ body {
 }
 
 p {
-	font-size: 17px;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0 0 16px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -33,9 +35,13 @@ hr {
 	border: 1px solid #DEDEDE
 }
 
+ul {
+	margin-top: 20px;
+}
+
 ul li {
-	font-size: 16px;
-	padding-bottom: 5px;
+	font-size: 18px;
+	padding-bottom: 10px;
 }
 
 /* Kill sidebar nav on mobile */
@@ -52,7 +58,7 @@ ul li {
 	background: none;
 	border: none;
 	height: 100px;
-	margin-bottom: 25px;
+	margin-bottom: 45px;
 }
 
 .navbar-right {
@@ -70,6 +76,10 @@ ul li {
 
 .navbar-default .navbar-nav > li > a {
 	color: #9B59B6;
+}
+
+.navbar-brand img {
+	width: 180px;
 }
 
 
@@ -129,7 +139,7 @@ h1.front {
 
 .featurette {
 	padding-top: 30px; /* Because of margin-top on heading */
-	padding-bottom: 50px;
+	padding-bottom: 25px;
 	border-bottom: 1px solid #ddd;
 }
 
@@ -166,8 +176,8 @@ h1.front {
 /* Buttons */
 
 a.purple {
-	width: 225px;
-	padding: 20px;
+	width: 188px;
+	padding: 17px 0px;
 	margin-bottom: 20px;
 	font-size: 21px;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
@@ -268,16 +278,30 @@ a.culture  {
 a.btn-notify {
 	font-size: 16px !important;
 	text-transform: none;
-	color: #18DD04 !important;
-	padding: 8px 7px !important;
+	color: #fff !important;
+	padding: 10px 11px !important;
 	margin-top: 6px;
-	border: 2px solid #18DD04;
-	background: #FFF;
+	border: 1px solid rgb(255, 128, 0);
+	background: rgb(255, 128, 0);
+	margin-left: 10px;
 }
 
 a.btn-notify:hover {
-	background: #18DD04 !important;
+	background: rgb(255, 128, 0) !important;
 	color: #fff !important;
+}
+
+.training-format {
+	margin-top: 20px;
+}
+
+.training-format h3 {
+	margin-top: 0;
+}
+
+.training-format .row {
+
+	margin-bottom: 16px;
 }
 
 
